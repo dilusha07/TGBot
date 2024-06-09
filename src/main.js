@@ -9,6 +9,11 @@ bot.start((ctx) => {
   eventInfo.sendEventDetails(ctx);
 });
 
+bot.command('help', (ctx) => {
+  ctx.reply('Bot Commands:\n/start - Start the bot and get event details\n/register - Register for the event\n/help - Show the bot commands');
+});
+
+
 bot.launch().then(() => {
   console.log('Bot is up and running');
 }).catch(console.error);
