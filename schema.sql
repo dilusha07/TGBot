@@ -4,3 +4,8 @@ CREATE TABLE IF NOT EXISTS users (
     email TEXT NOT NULL,
     numberOfTickets INTEGER NOT NULL
 );
+
+
+
+
+  
